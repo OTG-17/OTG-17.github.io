@@ -1,0 +1,105 @@
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(143, 142, 142);
+}
+.navbar-brand img {
+    width:100px;
+    height: 40px;
+}
+.navbar-toggler {
+    background-color: rgb(143, 142, 142);
+}
+.card-img-top {
+    height: 15rem;
+}
+body {
+    font-family: Comfortaa, serif;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+.footertext {
+    color: white;
+    margin: auto auto;
+}
+footer {
+background-color: black;
+border-top: whitesmoke;
+border-style: solid;
+border-width: 1px;
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days {
+    color: rgb(141, 141, 141);
+
+}
+
+.days2 {
+    color: rgb(141, 141, 141);
+
+}
+.days3{
+    color: rgb(141, 141, 141);
+
+}
+.days4 {
+    color: rgb(141, 141, 141);
+
+}
+.days6 {
+    color: rgb(141, 141, 141);
+}
+
+.news-block {
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+.news-block h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.news-block p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+.news-item {
+    background-color: #353535;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.news-item:hover {
+    background-color: #ececec;
+    transform: translateY(-3px);
+}
+.news-item h3 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.news-item p {
+    font-size: 16px;
+    color: #ffffff;
+}

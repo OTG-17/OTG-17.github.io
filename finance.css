@@ -1,0 +1,70 @@
+
+
+#special1 {
+    color: black;
+    font-size: 16px;
+}
+
+.requisits>img {
+    width: 60px;
+   
+}
+#mastercard {
+    width: 60px;
+
+}
+#tinkoff {
+    width: 60px;
+}
+.requesthead {
+    color: black;
+    margin-top: 15px;
+    background-color: white;
+    height: 110px;
+    width: 300px;
+    margin-left: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color: mediumblue;
+    border-width: 3px;
+}
+.donatelogo {
+    width: 80px;
+}
+.news {
+    border-style: solid;
+color: white;
+border-width: 2px;
+    height: 800px;
+
+ 
+}
+
+h1 {
+    text-align: center;
+}
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 10px;
+}
+.logo {
+    max-width: 100px;
+    margin: 10px auto;
+}
+.details {
+    text-align: left;
+    margin-top: 20px;
+}
+.details h2 {
+    margin-bottom: 10px;
+}
+.details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}

@@ -1,0 +1,28 @@
+
+.slidetext {
+    color: white;
+    margin:auto auto;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(92, 78, 78);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+.textslide {
+    background-color: #2d2727;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+}
+.w-100 {
+    border-radius: 15px;
+}
